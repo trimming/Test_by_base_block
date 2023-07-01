@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-Console.WriteLine("Введите группы символов через запятую: ");
+Console.WriteLine("Введите строки через запятую: ");
 string collection = Console.ReadLine()!;
 string[] array = collection.Split(", ");
 
